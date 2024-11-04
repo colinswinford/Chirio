@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F779EE972CD84B7600B61E5C /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = F779EE952CD84B7600B61E5C /* index.html */; };
+		F779EE982CD84B7600B61E5C /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = F779EE962CD84B7600B61E5C /* styles.css */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F779EE792CD8492400B61E5C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		F779EE682CD8492300B61E5C /* Chirio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chirio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F779EE782CD8492400B61E5C /* ChirioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChirioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F779EE822CD8492400B61E5C /* ChirioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChirioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F779EE952CD84B7600B61E5C /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		F779EE962CD84B7600B61E5C /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		F779EE5F2CD8492300B61E5C = {
 			isa = PBXGroup;
 			children = (
+				F779EE952CD84B7600B61E5C /* index.html */,
+				F779EE962CD84B7600B61E5C /* styles.css */,
 				F779EE6A2CD8492300B61E5C /* Chirio */,
 				F779EE7B2CD8492400B61E5C /* ChirioTests */,
 				F779EE852CD8492400B61E5C /* ChirioUITests */,
@@ -212,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F779EE972CD84B7600B61E5C /* index.html in Resources */,
+				F779EE982CD84B7600B61E5C /* styles.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
